@@ -185,6 +185,116 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 
 .cta-link:hover { border-color: var(--black); }
 
+/* Info hub */
+.info-hero {
+  padding: 96px 0 64px;
+}
+
+.info-hero h1 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  margin-bottom: 20px;
+}
+
+.info-hero p {
+  color: var(--gray-500);
+  font-size: 1.1rem;
+  max-width: 620px;
+  margin: 0;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 0 96px;
+}
+
+.info-card {
+  display: block;
+  padding: 28px 24px;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--black);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.info-card:hover {
+  border-color: var(--gray-300);
+  transform: translateY(-2px);
+}
+
+.info-card h2 {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-bottom: 10px;
+}
+
+.info-card span {
+  color: var(--gray-500);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Article */
+.breadcrumb {
+  padding: 32px 0 0;
+  font-size: 0.9rem;
+  color: var(--gray-500);
+}
+
+.breadcrumb a { color: var(--gray-500); text-decoration: none; }
+.breadcrumb a:hover { color: var(--black); }
+
+.article {
+  padding: 24px 0 80px;
+  max-width: 720px;
+}
+
+.article h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin: 20px 0 16px;
+}
+
+.article .lead {
+  font-size: 1.15rem;
+  color: var(--gray-500);
+  margin: 0 0 40px;
+}
+
+.article h2 {
+  font-size: 1.3rem;
+  margin: 40px 0 12px;
+}
+
+.article p {
+  font-size: 1.02rem;
+  color: #333333;
+  margin: 0 0 16px;
+}
+
+.article ul {
+  margin: 0 0 16px;
+  padding-left: 20px;
+  color: #333333;
+}
+
+.article li { margin-bottom: 8px; }
+
+.article-cta {
+  margin-top: 48px;
+  padding: 32px;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius);
+  background: var(--gray-50);
+}
+
+.article-cta p {
+  margin: 0 0 16px;
+  color: var(--black);
+  font-weight: 500;
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--gray-100);
@@ -207,7 +317,12 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 .footer-inner a:hover { color: var(--black); }
 
 /* Responsive */
+@media (max-width: 860px) {
+  .info-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 @media (max-width: 640px) {
+  .info-grid { grid-template-columns: 1fr; }
   .menu-toggle { display: flex; }
 
   .nav {

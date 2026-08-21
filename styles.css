@@ -145,14 +145,6 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 
 .btn-primary:hover { opacity: 0.85; }
 
-.btn-ghost {
-  background: transparent;
-  color: var(--black);
-  border-color: var(--gray-300);
-}
-
-.btn-ghost:hover { border-color: var(--black); }
-
 /* CTA */
 .cta {
   padding: 110px 0;

@@ -188,11 +188,6 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   padding: 96px 0 64px;
 }
 
-.info-hero h1 {
-  font-size: clamp(2rem, 4.5vw, 3rem);
-  margin-bottom: 20px;
-}
-
 .info-hero p {
   color: var(--gray-500);
   font-size: 1.1rem;

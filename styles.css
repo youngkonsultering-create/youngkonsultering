@@ -195,12 +195,42 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   margin: 0;
 }
 
+.info-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 0 40px;
+}
+
+.filter-btn {
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--gray-300);
+  background: transparent;
+  color: var(--black);
+  font-family: var(--font);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.filter-btn:hover { border-color: var(--black); }
+
+.filter-btn.active {
+  background: var(--black);
+  color: var(--white);
+  border-color: var(--black);
+}
+
 .info-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 0 0 96px;
 }
+
+.info-card.is-hidden { display: none; }
 
 .info-card {
   display: block;

@@ -302,6 +302,8 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   max-width: 720px;
 }
 
+.article-standalone { padding-top: 64px; }
+
 .article h1 {
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   margin: 20px 0 16px;

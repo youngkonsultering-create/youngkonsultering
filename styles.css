@@ -298,7 +298,8 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 .breadcrumb a:hover { color: var(--black); }
 
 .article {
-  padding: 24px 0 80px;
+  padding-top: 24px;
+  padding-bottom: 80px;
   max-width: 720px;
 }
 

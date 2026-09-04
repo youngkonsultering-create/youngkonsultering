@@ -405,6 +405,7 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   .nav a { padding: 12px 0; width: 100%; }
 
   .hero { padding: 88px 0 64px; }
+  .article-standalone { padding-top: 32px; }
   .cta { padding: 80px 0; }
   .cta-contact { flex-direction: column; align-items: center; gap: 18px; }
 }

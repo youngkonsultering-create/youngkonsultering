@@ -178,9 +178,11 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   border-top: 1px solid var(--gray-100);
 }
 
-.cta h2 {
+.cta h1, .cta h2 {
   font-size: clamp(1.7rem, 3.5vw, 2.4rem);
 }
+
+.cta-standalone { border-top: none; padding-top: 64px; }
 
 .cta-inner { max-width: 640px; margin: 0 auto; }
 
@@ -407,6 +409,7 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   .hero { padding: 88px 0 64px; }
   .article-standalone { padding-top: 32px; }
   .cta { padding: 80px 0; }
+  .cta-standalone { padding-top: 32px; }
   .cta-contact { flex-direction: column; align-items: center; gap: 18px; }
 }
 

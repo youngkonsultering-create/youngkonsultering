@@ -74,7 +74,7 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 
 .nav a:hover { opacity: 0.6; }
 
-.nav-ig { display: flex; align-items: center; }
+.nav-icon { display: flex; align-items: center; }
 
 .menu-toggle {
   display: none;
@@ -371,6 +371,12 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 }
 
 .footer-inner a:hover { color: var(--black); }
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
 
 /* Responsive */
 @media (max-width: 860px) {

@@ -36,7 +36,8 @@ if (filterBar) {
     const button = event.target.closest(".filter-btn");
     if (!button) return;
 
-    applyFilter(button.dataset.filter);
+    const isActive = button.classList.contains("active");
+    applyFilter(isActive ? "alla" : button.dataset.filter);
   });
 
   const hashFilter = decodeURIComponent(window.location.hash.slice(1));

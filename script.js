@@ -21,18 +21,30 @@ if (filterBar) {
   const filterButtons = filterBar.querySelectorAll(".filter-btn");
   const cards = document.querySelectorAll(".info-card");
 
-  filterBar.addEventListener("click", (event) => {
-    const button = event.target.closest(".filter-btn");
-    if (!button) return;
-
-    filterButtons.forEach((btn) => btn.classList.remove("active"));
-    button.classList.add("active");
-
-    const filter = button.dataset.filter;
+  const applyFilter = (filter) => {
+    filterButtons.forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.filter === filter);
+    });
 
     cards.forEach((card) => {
       const matches = filter === "alla" || card.dataset.category === filter;
       card.classList.toggle("is-hidden", !matches);
     });
+  };
+
+  filterBar.addEventListener("click", (event) => {
+    const button = event.target.closest(".filter-btn");
+    if (!button) return;
+
+    applyFilter(button.dataset.filter);
   });
+
+  const hashFilter = decodeURIComponent(window.location.hash.slice(1));
+  const hasMatchingButton = Array.from(filterButtons).some(
+    (btn) => btn.dataset.filter === hashFilter
+  );
+
+  if (hasMatchingButton) {
+    applyFilter(hashFilter);
+  }
 }

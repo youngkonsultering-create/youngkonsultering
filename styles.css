@@ -301,11 +301,17 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 .services-overview {
   max-width: 720px;
   padding-top: 56px;
+  padding-bottom: 8px;
 }
 
 .services-overview h2 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin-bottom: 12px;
+}
+
+.services-overview h3 {
+  font-size: 1.1rem;
+  margin: 0 0 8px;
 }
 
 .services-overview p {
@@ -314,38 +320,30 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   margin: 0 0 24px;
 }
 
-.price-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin: 0 0 28px;
+.services-overview ul {
+  margin: 0 0 12px;
+  padding-left: 20px;
+  color: #333333;
 }
 
-.price-card {
-  border: 1px solid var(--gray-100);
-  border-radius: var(--radius);
-  padding: 24px 16px;
-  text-align: center;
+.services-overview li {
+  margin-bottom: 6px;
 }
 
-.price-amount {
-  display: block;
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+.service-block {
+  margin: 0 0 32px;
 }
 
-.price-period {
-  display: block;
-  font-size: 0.85rem;
-  color: var(--gray-500);
-  margin: 2px 0 10px;
+.service-block p {
+  margin: 0 0 12px;
 }
 
-.price-card h3 {
-  font-size: 0.95rem;
-  font-weight: 600;
-  margin: 0;
+.services-overview .article-cta {
+  margin-top: 8px;
+}
+
+.services-overview .article-cta h3 {
+  margin: 0 0 12px;
 }
 
 /* Article */
@@ -444,7 +442,6 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 
 @media (max-width: 640px) {
   .info-grid { grid-template-columns: 1fr; }
-  .price-grid { grid-template-columns: 1fr; }
   .menu-toggle { display: flex; }
 
   .nav {

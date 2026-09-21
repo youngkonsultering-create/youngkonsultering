@@ -348,6 +348,23 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 .breadcrumb a { color: var(--gray-500); text-decoration: none; }
 .breadcrumb a:hover { color: var(--black); }
 
+.article-banner {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('/assets/article_header.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 32px 0 40px;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.article-banner .breadcrumb {
+  padding: 0 0 20px;
+}
+
+.article-banner h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin: 0;
+}
+
 .article {
   padding-top: 24px;
   padding-bottom: 80px;

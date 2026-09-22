@@ -532,6 +532,10 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
     background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url('/assets/article_header.jpg');
     background-position: 60% bottom;
   }
+  .article-banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url('/assets/article_header.jpg');
+    background-position: 60% bottom;
+  }
   .article-standalone { padding-top: 12px; }
   .services-overview { padding-top: 12px; }
   .cta { padding: 80px 0; }

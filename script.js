@@ -10,7 +10,7 @@ if (siteHeader) {
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const revealTargets = document.querySelectorAll(
-  ".hero-kicker, .hero h1, .hero-sub, .hero-actions, .pillars-row, .home-services h2, .home-services-intro, .cta h1, .cta h2, .cta p, .cta-contact, .info-card, .service-card, .article-banner .breadcrumb, .article-banner h1, .article-banner .lead"
+  ".hero-kicker, .hero h1, .hero-sub, .hero-actions, .pillars-row, .home-services-intro, .cta h1, .cta h2, .cta p, .cta-contact, .info-card, .service-card, .article-banner .breadcrumb, .article-banner h1, .article-banner .lead"
 );
 
 if (revealTargets.length && !prefersReducedMotion && "IntersectionObserver" in window) {

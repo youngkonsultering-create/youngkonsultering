@@ -431,7 +431,7 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   margin-bottom: 0;
 }
 
-.service-price {
+.service-card .service-price {
   margin-top: auto;
   padding-top: 16px;
   border-top: 1px solid var(--gray-100);

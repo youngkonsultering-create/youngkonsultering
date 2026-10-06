@@ -506,6 +506,14 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
 
 .article-standalone { padding-top: 56px; }
 
+/* Keep Våra tjänster och om oss centered as its own column */
+.om-oss-page .services-overview,
+.om-oss-page .article {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .article h1 {
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   margin: 20px 0 16px;

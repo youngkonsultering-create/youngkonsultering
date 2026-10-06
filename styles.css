@@ -321,7 +321,7 @@ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 0 0 96px;
+  padding-bottom: 96px;
 }
 
 .info-card.is-hidden { display: none; }

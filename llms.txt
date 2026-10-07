@@ -1,0 +1,38 @@
+# Young Konsultering
+
+> Young Konsultering är en svensk redovisningsbyrå som hjälper ägarledda aktiebolag med bokföring, redovisning, bokslut och lön. Baserad i Sverige, arbetar digitalt med företag i hela landet.
+
+## Tjänster
+
+- [Nystartat företag](https://youngkonsultering.se/tjanster/nystartat_foretag/): Hjälp för nystartade aktiebolag att få en bra struktur från början, från 199 kronor per månad.
+- [Löpande bokföring](https://youngkonsultering.se/tjanster/lopande_bokforing/): Löpande bokföring och momsdeklaration, från 299 kronor per månad.
+- [Bokföring och lön](https://youngkonsultering.se/tjanster/bokforing_och_lon/): Bokföring kombinerat med lönehantering och arbetsgivardeklaration, från 449 kronor per månad.
+- [Bokslut och årsredovisning](https://youngkonsultering.se/tjanster/bokslut_och_arsredovisning/): Hjälp att avsluta räkenskapsåret med bokslut, årsredovisning och inkomstdeklaration, från 595 kronor per månad.
+
+## Om företaget
+
+- [Våra tjänster och om oss](https://youngkonsultering.se/om_oss/): Översikt av alla tjänster samt bakgrund om grundaren.
+- [Kontakt](https://youngkonsultering.se/kontakt/): Kontaktuppgifter till Young Konsultering.
+
+## Hjälpande hand, artiklar om bokföring och redovisning
+
+En samling artiklar som svarar på vanliga frågor inom bokföring, redovisning och bokslut för svenska aktiebolag. Full lista på [youngkonsultering.se/info/](https://youngkonsultering.se/info/).
+
+Artiklar med aktuella belopp och gränsvärden för 2026:
+
+- [Prisbasbelopp 2026 och vad det påverkar](https://youngkonsultering.se/info/prisbasbelopp_2026_och_vad_det_paverkar/)
+- [Traktamente 2026 och de skattefria schablonbeloppen](https://youngkonsultering.se/info/traktamente_2026_och_de_skattefria_schablonbeloppen/)
+- [Skattefri gräns för gåvor till anställda 2026](https://youngkonsultering.se/info/skattefri_grans_for_gavor_till_anstallda_2026/)
+- [Avdragsgill gräns för representation med mat och dryck](https://youngkonsultering.se/info/avdragsgill_grans_for_representation_med_mat_och_dryck/)
+- [Brytpunkt och skiktgräns för statlig inkomstskatt 2026](https://youngkonsultering.se/info/brytpunkt_och_skiktgrans_for_statlig_inkomstskatt_2026/)
+- [Gränsvärden för revisionsplikt i aktiebolag](https://youngkonsultering.se/info/gransvarden_for_revisionsplikt_i_aktiebolag/)
+- [Skattefri milersättning för egen bil i tjänsten 2026](https://youngkonsultering.se/info/skattefri_milersattning_for_egen_bil_i_tjansten_2026/)
+- [Gräns för momsbefrielse för liten verksamhet 2026](https://youngkonsultering.se/info/grans_for_momsbefrielse_for_liten_verksamhet_2026/)
+- [Gräns för förenklad faktura 2026](https://youngkonsultering.se/info/grans_for_forenklad_faktura_2026/)
+- [Skattefri minnesgåva och jubileumsgåva 2026](https://youngkonsultering.se/info/skattefri_minnesgava_och_jubileumsgava_2026/)
+- [Skattefritt friskvårdsbidrag 2026](https://youngkonsultering.se/info/skattefritt_friskvardsbidrag_2026/)
+- [Avdragsgill gräns för reklamgåva och representationsgåva](https://youngkonsultering.se/info/avdragsgill_grans_for_reklamgava_och_representationsgava/)
+
+## Övrigt
+
+- [Fullständig sidkarta](https://youngkonsultering.se/sitemap.xml)
